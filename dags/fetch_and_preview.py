@@ -8,7 +8,7 @@ def get_data(**kwargs):
     import requests
     import pandas as pd
 
-    url = ''
+    url = 'https://raw.githubusercontent.com/Skpow1234/Kubernetes---Data-Engineering/main/output-example/new-output.csv'
     response = requests.get(url)
 
     if response.status_code == 200:

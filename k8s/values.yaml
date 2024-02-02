@@ -4,7 +4,7 @@ webserverSecretKey: aERBZE5MN3E0TjRjU2xzQWxCdTNIUks0WGFTZThoWXc=
 dags:
   gitSync:
     enabled: true
-    repo: 
+    repo: https://github.com/Skpow1234/Kubernetes---Data-Engineering.git
     branch: main
     rev: HEAD
     depth: 1
